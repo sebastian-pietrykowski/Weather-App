@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main-content">
+        <h1 id="heading">Weather App</h1>
+        <form onsubmit="return false" onkeydown="setWeatherCheckEnter(this)">
+            <input type="text" id="city-text-field" name="city-text-field">
+        </form>
+        <button type="button" id="submit" onclick="setWeather();">Submit</button>
+        <p id="weather-main"></p>
+        <p id="city"></p>
+        <p id="temperature"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
