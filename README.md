@@ -8,7 +8,7 @@ Simple Weather App displaying the current weather in a specified place.
 
 
 ## General Information
-A website displaying the current weather in a location typed by user worldwide. The information is retrieved from the REST API provided by [OpenWeatherMap.org](openweathermap.org).
+A website displaying the current weather in a location typed by user worldwide. The information is retrieved from the REST API provided by [OpenWeatherMap.org](https://openweathermap.org).
 
 ## Technologies Used
 - HTML
